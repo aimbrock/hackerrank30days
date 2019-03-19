@@ -68,3 +68,31 @@ When we concatenate 'HackerRank' with 'is the best place to learn and practice c
 
 You will not pass this challenge if you attempt to assign the Sample Case values to your variables instead of following the instructions above and reading input from stdin.
 
+## Day 2 Operators:
+
+Objective 
+In this challenge, you'll work with arithmetic operators. Check out the Tutorial tab for learning materials and an instructional video!
+
+Task 
+Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
+
+Note: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result!
+
+Sample Input
+
+12.00	// mealCost
+20	// tipPercent
+8	// taxPercent
+
+Sample Output
+
+15
+
+Calculations:
+
+tip = 12 x (20/100) = 2.4
+tax = 12 x (8/100) = 0.96
+totalCost = mealCost + tip + tax = 12 + 2.4 + 0.96 = 15.36
+round(totalCost = 15 // Round totalCost ot hte nearest dollar (integer) and print out result, 15.
+
+----
